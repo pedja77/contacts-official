@@ -32,7 +32,7 @@
           <input 
             id="email" 
             name="email" 
-            type="email" 
+            type="text" 
             
             class="form-control here" 
             v-model="contact.email">
@@ -42,7 +42,7 @@
         <label for="number" class="col-4 col-form-label">Number</label>
         <div class="col-8">
           <div class="input-group">
-            <input id="number" name="number" type="tel"  class="form-control here" v-model="contact.number">
+            <input id="number" name="number" type="text"  class="form-control here" v-model="contact.number">
           </div>
         </div>
       </div>
